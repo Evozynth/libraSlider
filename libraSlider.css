@@ -1,0 +1,96 @@
+/* ----------------------------------------------------------------------------
+ * Simple reset
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* -------------------------------------
+ * Slider
+ */
+
+#slider-wrapper {
+	margin: 0 auto;
+	clear: both;
+}
+
+/* The slider div */
+.slider {
+	position: relative;
+}
+
+/* The image div */
+.slider > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* The text div */
+.slider > div > div {
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background: hsla(0, 0%, 100%, 0.5);
+	padding: 10px;
+}
+
+/* --------------------------------------
+ * Navigation
+ */
+
+.slider-nav {
+	position: relative;
+	float: left;
+}
+
+.slider-nav > div {
+	display: inline-block;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin: 8px 16px 8px 0px;
+}
+
+#slider-circles {
+	position: relative;
+	margin: 0 auto;
+	width: 100px;
+	height: 16px;
+	margin-top: 8px;
+	top: -30px;
+	z-index: 11;
+}
+
+#slider-circles div {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 0px 2px;
+}
+
+.slider-next {
+	background: url('libraSlider-buttons.png') no-repeat -16px -32px;
+}
+
+.slider-prev {
+	background: url('libraSlider-buttons.png') no-repeat 0px -32px;
+}
+
+.slider-pause {
+	background: url('libraSlider-buttons.png') no-repeat -16px 0px;
+}
+
+.slider-play {
+	background: url('libraSlider-buttons.png') no-repeat 0px 0px;
+}
+
+.slider-current {
+	background: url('libraSlider-buttons.png') no-repeat -16px -16px;
+}
+
+.slider-blank {
+	background: url('libraSlider-buttons.png') no-repeat 0px -16px;
+}
